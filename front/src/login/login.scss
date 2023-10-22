@@ -1,0 +1,67 @@
+/* login.scss */
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+      min-width: 400px;
+  }
+  
+  .login-container {
+    box-shadow: 4px 4px 4px 6px rgba(53, 53, 53, 0.1);
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .login-form h3 {
+    text-align: center;
+    margin: 0 0 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .textfields {
+    display: flex;
+  
+    input {
+      width: 100%;
+    }
+  }
+  
+  .button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    min-width: 100%;
+  }
+  
+  .reg-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    p {
+      margin: 0;
+    }
+  }
+  
+  /* Style the "Sign up now" button */
+  .reg-text a {
+    text-decoration: none;
+    color: #007bff;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
